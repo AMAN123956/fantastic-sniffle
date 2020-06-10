@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#ffd460;
+}
+
+
+
+
+.left{
+    width:65px;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+    font-weight:bolder;
+    position:relative;
+    top:-5px;
+    left:-5px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes logo{
+    0%{
+        border-radius: 0%;
+        background-color: black;
+        color:white;
+    }
+    25%{
+        border-radius: 15%;
+        background-color:red;
+        color:yellow;
+    }
+    50%{
+        border-radius:25%;
+        background-color:green;
+        color:cyan;
+    }
+    75%{
+        border-radius:15%;
+        background-color:white;
+        color:black;
+    }
+    100%{
+        border-radius:0%;
+        background-color:black;
+        color:white;
+    }
+}
+.left img{
+    width:65px;
+}
+
+
+/* header */
+
+.lead{
+    color:#f73859;
+    font-size:25px;
+    font-weight:bolder;
+    font-family:'Baloo Bhai 2', cursive;
+    
+}
+
+h1{
+    color:#00a8cc;
+    font-family:'Ubuntu', sans-serif;
+}

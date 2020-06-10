@@ -1,0 +1,251 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:yellow;
+    width:100%;
+    height:400%;    
+    overflow-x: hidden;
+    
+   /* display:flex;
+    flex-wrap: wrap;*
+
+.grid-container{
+    width:100%;
+}
+*/
+}
+html{
+    overflow-x:hidden;
+    
+}
+/* top-bar */
+.menu{
+    margin-left:20px;
+    
+}
+
+
+
+.left{
+    width:65px;
+    border:2px solid black;
+    background-color: black;
+    color:white;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+    font-weight:bolder;
+    position:relative;
+    top:-5px;
+    left:-10px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.res img{
+    height:300px;
+}
+
+@keyframes logo{
+    0%{
+        border-radius: 0%;
+        background-color: black;
+        color:white;
+    }
+    25%{
+        border-radius: 15%;
+        background-color:red;
+        color:yellow;
+    }
+    50%{
+        border-radius:25%;
+        background-color:green;
+        color:cyan;
+    }
+    75%{
+        border-radius:15%;
+        background-color:white;
+        color:black;
+    }
+    100%{
+        border-radius:0%;
+        background-color:black;
+        color:white;
+    }
+}
+.left img{
+    width:65px;
+}
+/* top-bar */
+a{
+    font-size:30px;
+    
+}
+.menu a{
+    padding:10px;
+}
+/* content */
+h1{
+    color:blue;
+    font-weight:bolder;
+    margin-left:10px;
+    text-shadow:2px 2px 2px white;
+    font-size:25px;
+    font-family:'Baloo Bhai 2', cursive;
+
+}
+.button{
+    margin-left:5px;
+}
+#base{
+    font-size:40px;
+    word-spacing:1rem;
+    line-height: 3.5rem;
+    color:red;
+    font-weight:bolder;
+    text-shadow:3px 2px 2px blue;
+    font-family:'Baloo Bhai 2', cursive;
+    max-width:50%;
+}
+#base span{
+    color:blue;
+    margin-left:55px;
+    text-shadow:3px 3px 2px yellow;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#base button{
+    margin-left:110px;
+    margin-top:10px;
+}
+
+.grid-container{
+    background-color:#333f;
+    max-width:100%;
+    font-size:30px;
+    
+}
+.res img{
+    height:400px;
+    margin-left:100px;
+    margin-top:60px;
+    margin-bottom:20px;
+}
+.last h2{
+    color:white;
+    text-shadow:3px 3px 2px blue;
+}
+.last p{
+    color:white;
+}
+
+
+   #base span{
+       margin-left:5px;
+       line-height:3.0rem;
+   }
+   #base button{
+       margin-left:10px;
+       width:40%;
+       padding:0px;
+       height:50%;
+       padding:15px;
+   }
+   #base a{
+       font-size:15px;
+       font-weight:bolder;
+       font-family:sans-serif;
+   }
+   .last h2{
+       color:white;
+       font-size:40px;
+       font-family:'Baloo Bhai 2', cursive;
+       text-shadow:3px 3px 2px blue;
+   }
+   #last{
+       font-size:20px;
+       padding:5px;
+       
+   }
+   .res img{
+       width:250px;
+       margin-left:1%;
+   }
+   a{
+       font-size:20px;
+   }
+  
+}
+/* services */
+.services h1{
+    color:white;
+    text-align:center;
+    font-size:40px;
+}
+
+.si{
+    width:360px;
+    height:590px;
+    background-color:black;
+    border:2px solid blue;
+}
+.si img{
+    width:200px;
+    height:150px;
+    margin-left:70px;
+
+}
+.si p{
+    color:white;
+    line-height:2rem;
+    text-align:justify;
+    margin:0px 10px;
+    font-size:18px;
+    margin-top:13px;
+    
+    
+}
+.si h4{
+    color:white;
+    font-size:30px;
+    text-align:center;
+}
+@media screen and (max-width:610px)
+{ 
+    .left{
+        width:80%;
+    }
+     .top-bar{
+         width:100%;
+         
+     }
+      a{
+         font-size:13px;
+     }
+  .menu{
+      width:100px;
+  }  
+}
+@media screen and (max-width:400px)
+{
+    .si p{
+        font-size:15px;
+        margin-right:5px;
+    }
+    .si{
+        width:330px;
+        padding:14px;
+        height:630px;
+        margin-bottom:10px;
+    }
+    .si img{
+        margin-left:40px;
+    }
+
+}
+@media screen and (min-width:620px) and (max-width:1120px)
+{
+    #base{
+        font-size:40px;
+    }
+}
